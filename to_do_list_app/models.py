@@ -13,5 +13,5 @@ class Item(models.Model):
     list = models.ForeignKey(List, on_delete=models.CASCADE, verbose_name="List")
     text = models.CharField(max_length=500, verbose_name="Text")
     checked = models.BooleanField(default=False, verbose_name="Checked")
-    checked_date = models.DateTimeField(default=None, blank=True)
+    checked_date = models.DateTimeField(default=None, blank=True, null=True)
     creation_date = models.DateTimeField()

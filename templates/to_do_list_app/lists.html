@@ -5,6 +5,37 @@
     <title>Lists</title>
 </head>
 <body>
+<form class="" action="/list/add" method="POST">
+{% csrf_token %}
+<input type="text" name="list_title" value=""/>
+<input type="Submit" name="create_list" value="New List"/>
+</form>
+{% if lists %}
+    <ul>
+    {% for list in lists %}
+        <li><a href="/list/{{ list.id }}">{{ list.title }}</a></li>
+        {% for item in list.item_set.all %}
+            <li>{{ item.text }}</li>
+            <input type="checkbox"/>
 
+            <form class="" action="/list/{{ list.id }}/item/delete/{{ item.id }}" method="POST">
+                {% csrf_token %}
+                <input type="Submit" name="delete_item" value="Delete"/>
+            </form>
+        {% endfor %}
+        <form class="" action="/list/{{ list.id }}/item/add/" method="POST">
+             {% csrf_token %}
+             <input type="text" name="item_text" value=""/>
+             <input type="Submit" name="add_item" value="Add Item"/>
+        </form>
+        <form class="" action="/list/delete/{{ list.id }}/" method="POST">
+            {% csrf_token %}
+            <input type="Submit" name="delete_list" value="Delete List"/>
+        </form>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No lists are available.</p>
+{% endif %}
 </body>
 </html>
