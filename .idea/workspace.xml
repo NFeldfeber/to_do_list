@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a62c54a-cf22-4628-8259-6198377c4597" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/to_do_list_app/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/to_do_list_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/to_do_list_app/lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/to_do_list_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/to_do_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to_do_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to_do_list/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to_do_list_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/to_do_list_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list_app/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571624170987</updated>
-      <workItem from="1571624218522" duration="1226000" />
+      <workItem from="1571624218522" duration="1878000" />
     </task>
     <servers />
   </component>
