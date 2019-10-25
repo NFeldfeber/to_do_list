@@ -4,7 +4,6 @@
     <list default="true" id="4a62c54a-cf22-4628-8259-6198377c4597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/to_do_list_app/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/to_do_list_app/lists.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/to_do_list_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/to_do_list_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/to_do_list_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/to_do_list_app/urls.py" afterDir="false" />
@@ -85,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571624170987</updated>
-      <workItem from="1571624218522" duration="8257000" />
+      <workItem from="1571624218522" duration="11049000" />
     </task>
     <servers />
   </component>

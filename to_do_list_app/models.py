@@ -6,7 +6,7 @@ from django.db import models
 class List(models.Model):
     title = models.CharField(max_length=300)
     last_update = models.DateTimeField(auto_now=True)
-    creation_date = models.DateTimeField()
+    creation_date = models.DateTimeField(auto_now_add=True)
 
 
 class Item(models.Model):
@@ -14,4 +14,4 @@ class Item(models.Model):
     text = models.CharField(max_length=500, verbose_name="Text")
     checked = models.BooleanField(default=False, verbose_name="Checked")
     checked_date = models.DateTimeField(default=None, blank=True, null=True)
-    creation_date = models.DateTimeField()
+    creation_date = models.DateTimeField(auto_now_add=True)

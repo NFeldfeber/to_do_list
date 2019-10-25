@@ -12,7 +12,6 @@ class ItemInLine(admin.StackedInline):
 class ListAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {'fields': ['title']}),
-        ('Date information', {'fields': ['creation_date']}),
     ]
     inlines = [ItemInLine]
 
